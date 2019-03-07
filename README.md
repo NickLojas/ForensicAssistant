@@ -1,10 +1,10 @@
-# ForensicAssistant
+# Forensic Assistant
 This is a web app made as a tool in aiding digital forensic investigations. It takes a facebook user's privately accessible security.htm file, then parses it for relevant information such as the user's IP addresses from wherever the user triggered some facebook events (login/post/like). With the parsed data, it runs it through the "whois" API to retreive valuable forensic information regarding the ip addresses received. It then displays the data received from the API on a table in a readable fashion using ReactJS.
 
 ## Usage
-- First clone the repo,
-- (Optional) then replace the placeholder security.htm file with your own,
-- then in a terminal in the repository directory run 
+1. First clone the repo,
+2. (Optional) then replace the placeholder security.htm file with your own,
+3. then in a terminal in the repository directory run 
 ```
 $ npm run full-install
 
