@@ -1,0 +1,25 @@
+{
+  "name": "csc423",
+  "version": "1.0.0",
+  "description": "Forensic web app that takes facebook user activity from security.htm file, then parses for relevant information and displays it on a table",
+  "main": "parser.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "iplocation": "^5.0.1",
+    "whois": "https://github.com/NickLojas/node-whois/tarball/master"
+  },
+  "devDependencies": {
+    "concurrently": "^3.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node parser.js",
+    "client": "cd frontEnd && cd website && npm run start",
+    "full-install": "npm install && cd frontEnd && cd website && npm install"
+  },
+  "author": "Nick Lojas",
+  "license": "ISC"
+}
