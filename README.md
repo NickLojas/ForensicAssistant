@@ -4,8 +4,10 @@ This is a web app made as a tool in aiding digital forensic investigations. It t
 ## Usage
 First clone the repo, then in a terminal run 
 ```
-npm run full-install
-npm run start
+$ npm run full-install
+
+//When finished installing run
+$ npm run start
 ```
 
 ## Skills used
