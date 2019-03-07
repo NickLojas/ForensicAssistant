@@ -6,7 +6,7 @@ First clone the repo, then in a terminal run
 ```
 $ npm run full-install
 
-//When finished installing run
+// When finished installing run
 $ npm run start
 ```
 
