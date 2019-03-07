@@ -3,7 +3,7 @@ This is a web app made as a tool in aiding digital forensic investigations. It t
 
 ## Usage
 - First clone the repo,
-- (Optional) Replace the placeholder security.htm file with your own,
+- (Optional) then replace the placeholder security.htm file with your own,
 - then in a terminal in the repository directory run 
 ```
 $ npm run full-install
